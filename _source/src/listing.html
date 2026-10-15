@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insights &amp; Perspectives | AKCELPE</title>
+<meta name="description" content="Educational articles from AKCELPE on real-world assets, tokenisation, real estate, digital finance and investor risk.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://akcelpe.com/insights/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AKCELPE">
+<meta property="og:title" content="Insights &amp; Perspectives | AKCELPE">
+<meta property="og:description" content="Educational articles from AKCELPE on real-world assets, tokenisation, real estate, digital finance and investor risk.">
+<meta property="og:url" content="https://akcelpe.com/insights/">
+<meta property="og:image" content="https://akcelpe.com/assets/img/insights/what-is-rwa-og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Insights &amp; Perspectives | AKCELPE">
+<meta name="twitter:description" content="Educational articles from AKCELPE on real-world assets, tokenisation, real estate, digital finance and investor risk.">
+<meta name="twitter:image" content="https://akcelpe.com/assets/img/insights/what-is-rwa-og.png">
+<meta name="theme-color" content="#17365D">
+<link rel="icon" href="/favicon.ico">
+<link rel="stylesheet" href="/assets/css/insights.css">
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body>
+{{HEADER}}
+<main id="main">
+  <section class="page-hero" aria-labelledby="page-title">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol><li><a href="/index.html">Home</a></li><li><span aria-current="page">Insights</span></li></ol>
+      </nav>
+      <p class="eyebrow" style="margin-top:48px">AKCELPE Insights</p>
+      <h1 id="page-title" style="margin-top:0">Insights &amp; Perspectives</h1>
+      <p class="page-hero__lede">Plain-English articles and research on real-world assets, tokenisation, real estate and digital finance. Written to help you understand how things work and what to check, with the risks stated clearly.</p>
+    </div>
+  </section>
+
+  <section class="section" id="featured-section" aria-labelledby="featured-title">
+    <div class="container">
+      <div class="section__head"><div>
+        <h2 class="section__title" id="featured-title">Featured article</h2>
+      </div></div>
+      <article class="featured">
+        <a class="featured__media" href="{{F_URL}}" tabindex="-1" aria-hidden="true">
+          <img src="{{F_IMG}}" width="1600" height="900" alt="" fetchpriority="high">
+        </a>
+        <div class="featured__body">
+          <span class="tag">{{F_CAT}}</span>
+          <h3 class="featured__title"><a href="{{F_URL}}">{{F_TITLE}}</a></h3>
+          <p class="featured__summary">{{F_SUBTITLE}}</p>
+          <p class="meta"><span>{{F_DATE}}</span><span>{{F_READ}} min read</span></p>
+          <div><a class="btn" href="{{F_URL}}">Read the guide <span aria-hidden="true">&rarr;</span></a></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section section--tint" id="library" aria-labelledby="library-title">
+    <div class="container">
+      <div class="section__head"><div>
+        <h2 class="section__title" id="library-title">All articles</h2>
+        <p class="section__sub">Search by topic or filter by category.</p>
+      </div></div>
+
+      <div class="toolbar">
+        <form class="search" id="search-form" role="search" action="/insights/" method="get">
+          <label class="sr-only" for="q">Search articles</label>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <input id="q" name="q" type="search" placeholder="Search articles" autocomplete="off" enterkeyhint="search">
+        </form>
+        <div class="filters" role="group" aria-label="Filter by category">
+{{CHIPS}}
+        </div>
+        <p class="results-status" id="results-status" role="status" aria-live="polite"></p>
+      </div>
+
+      <ul class="grid" id="grid">
+{{NOSCRIPT_CARDS}}
+      </ul>
+      <div id="state" hidden></div>
+      <nav class="pager" id="pager" aria-label="Pagination" hidden></nav>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="research-title">
+    <div class="container">
+      <div class="section__head"><div>
+        <h2 class="section__title" id="research-title">Go deeper with AKCELPE research</h2>
+        <p class="section__sub">Primary sources and plain statements of risk sit alongside every article.</p>
+      </div></div>
+      <div class="tiles">
+        <a class="tile" href="/research-centre.html">
+          <h3>AKCELPE Research Centre</h3>
+          <p>Regulator, government and institutional references on tokenisation, organised by region.</p>
+          <span class="more">Open the Research Centre &rarr;</span>
+        </a>
+        <a class="tile" href="/rwa-global.html">
+          <h3>RWA Global</h3>
+          <p>How AKCELPE describes its proposed approach to real assets, with local legal structures.</p>
+          <span class="more">Read RWA Global &rarr;</span>
+        </a>
+        <a class="tile" href="/risk.html">
+          <h3>Risk disclosure</h3>
+          <p>The risks of digital assets and investments, and the jurisdictions that are restricted.</p>
+          <span class="more">Read the risks first &rarr;</span>
+        </a>
+      </div>
+      <div class="notice notice--risk" style="margin-top:32px" role="note">
+        <strong>Educational content, not advice.</strong> Articles are for general information only and are not financial, legal or tax advice, or an offer or recommendation to buy any token, security or investment product. Capital is at risk.
+      </div>
+    </div>
+  </section>
+</main>
+{{FOOTER}}
+<script src="/assets/js/articles-data.js"></script>
+<script src="/assets/js/insights.js" defer></script>
+</body>
+</html>

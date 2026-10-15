@@ -1,0 +1,199 @@
+<h2 id="introduction">Introduction: why RWA matters in digital finance</h2>
+<p class="lede">Over the past few years, “real-world assets”, usually shortened to RWA, have moved from a niche crypto term to a subject of serious work by central banks, securities regulators and established financial institutions.</p>
+<p>The Bank for International Settlements (BIS) has set out a vision of a tokenised monetary and financial system built around a unified ledger.[[3]] The Financial Stability Board (FSB) and the International Organization of Securities Commissions (IOSCO) have each published reports on tokenisation.[[1,2]] In April 2026 the UK Financial Conduct Authority (FCA) published final guidance on fund tokenisation.[[4]]</p>
+<p>The underlying idea is simple to state. Take something that already exists in the real economy, such as a building, a fund unit or a bond, and use digital infrastructure to record, transfer or administer rights connected to it. It is much harder to do well, because the digital layer is only one part of the picture. Law, valuation, custody and regulation decide what a holder can actually claim.</p>
+<p>Adoption is still at an early stage. The FSB concluded in 2024 that tokenisation was too small to pose a material risk to financial stability, noting that public data was limited.[[1]] IOSCO’s 2025 final report likewise describes tokenisation as growing but still early.[[2]] This guide is an educational introduction to help you ask better questions. It is not written to promote any product.</p>
+<div class="callout callout--info" role="note">
+  <strong class="callout__title">How to read this guide</strong>
+  <p>This article is for general education only. It is not financial, legal or tax advice, and it is not an offer or recommendation to buy any token, security or investment product. Where it mentions regulators and pilots, those are examples of how the topic is being studied, not approvals of any particular product.</p>
+</div>
+
+<h2 id="what-does-rwa-mean">What does RWA mean?</h2>
+<p>RWA stands for <strong>real-world asset</strong>. In the broad sense, it is anything of value that exists outside a blockchain: land and buildings, a loan, a government bond, units in an investment fund, gold held in a vault, a piece of equipment. In digital finance, “RWA” usually refers to a digital token or ledger record that is linked to one of these assets, or to a legally defined economic interest in it.</p>
+
+<h3 id="token-is-a-record">A token is a record, not the asset itself</h3>
+<p>A token cannot make a building exist, and it cannot by itself make someone the legal owner of that building. What a holder can claim depends on the legal arrangements around the asset.</p>
+<div class="callout" role="note">
+  <strong class="callout__title">Key idea</strong>
+  <p><strong>The token does not create the asset, and it does not automatically create legal ownership.</strong> The real asset provides the underlying value. The legal structure creates enforceable rights. The digital record represents or administers those rights.</p>
+</div>
+
+<h3 id="rwa-vs-crypto-native">RWA compared with crypto-native assets</h3>
+<p>Many people first meet blockchain through assets that exist only on a network. RWAs start from the other end: the asset is real, and the digital record comes second.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Comparison of crypto-native assets and tokenised real-world assets">
+<table>
+  <caption>A general comparison. Individual products differ, so check the documents for the specific product.</caption>
+  <thead><tr><th scope="col">Question</th><th scope="col">Crypto-native asset</th><th scope="col">Tokenised real-world asset</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Where does the value come from?</th><td>Mainly from demand for the token within its network or market.</td><td>From an asset, business or financial claim that exists outside the blockchain.</td></tr>
+    <tr><th scope="row">What makes rights enforceable?</th><td>Protocol rules and code, plus any terms the issuer publishes.</td><td>Law and contracts: the legal structure, the offering documents and the courts.</td></tr>
+    <tr><th scope="row">What needs verifying?</th><td>The smart contract, the network and the issuer.</td><td>Title, valuation, custody and legal structure, as well as the smart contract.</td></tr>
+    <tr><th scope="row">Which rules usually apply?</th><td>Varies widely by country and by how the token is classified.</td><td>Often existing rules for securities, funds, property and anti-money-laundering, depending on the product.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3 id="patterns">Not every RWA is the same</h3>
+<p>Three patterns come up often:</p>
+<ul>
+  <li><strong>Tokenised funds and securities.</strong> A regulated instrument, such as a fund unit or a bond, whose register or units are recorded on a distributed ledger.</li>
+  <li><strong>Fractional interests in property.</strong> A property is held in a legal vehicle, and interests in that vehicle are divided into smaller units.</li>
+  <li><strong>Claims on physical assets.</strong> For example, a claim on gold or another commodity held in custody.</li>
+</ul>
+<p>Each pattern raises different questions, which is why “RWA” on its own tells you very little about a specific product.</p>
+
+<h2 id="how-tokenisation-works">How does RWA tokenisation work?</h2>
+<p>Tokenisation is better understood as a process with several layers, only one of which is technical. The sequence below is a simplified outline. Real structures vary by asset type and by country.</p>
+<figure class="diagram">
+  <ol class="flow">
+    <li><b>Identify the asset</b><span>An identifiable asset exists, for example a property, a bond or a quantity of a commodity.</span></li>
+    <li><b>Verify it</b><span>Ownership, title, valuation, liabilities and condition are reviewed by suitable professionals.</span></li>
+    <li class="is-key"><b>Place it in a legal structure</b><span>The asset or interest is held in a structure the law recognises, such as a company, a fund, a trust or a regulated security. This is where rights are defined.</span></li>
+    <li><b>Issue digital units</b><span>Units are issued as tokens or ledger entries, with rules about who may hold and transfer them.</span></li>
+    <li><b>Onboard eligible holders</b><span>Identity, anti-money-laundering and eligibility checks are completed where required.</span></li>
+    <li><b>Administer over time</b><span>Income, reporting, transfers and any exit or redemption follow the offering documents.</span></li>
+  </ol>
+  <figcaption>Figure 1. A simplified RWA tokenisation sequence. The highlighted step is the one that gives the digital record its meaning.</figcaption>
+</figure>
+
+<h3 id="on-chain-off-chain">On-chain and off-chain</h3>
+<p>The ledger typically handles record-keeping and transfer rules. Whether those records are legally recognised, who holds the underlying asset, and what happens in a dispute all sit off the chain, in contracts, regulation and courts. This is why legal due diligence and technical due diligence are separate tasks.</p>
+<p>Smart contracts can automate rules, such as which wallets may receive a unit. Code and law are not the same thing, though, and a rule in code does not by itself create a right that a court will enforce.</p>
+
+<h3 id="representation-vs-ownership">Representation versus ownership</h3>
+<div class="table-wrap" tabindex="0" role="region" aria-label="What a digital token can and cannot do on its own">
+<table>
+  <caption>What a digital token can and cannot do on its own.</caption>
+  <thead><tr><th scope="col">A token can…</th><th scope="col">A token cannot, by itself…</th></tr></thead>
+  <tbody>
+    <tr><td>Record who holds a unit and when it moved.</td><td>Prove that the issuer owns the underlying asset.</td></tr>
+    <tr><td>Apply transfer restrictions in code.</td><td>Replace legal title or official registration. In England and Wales, for instance, registered title to land is recorded by HM Land Registry.[[9]]</td></tr>
+    <tr><td>Automate reporting or distributions according to set rules.</td><td>Guarantee that the asset produces income or that income will be paid.</td></tr>
+    <tr><td>Make a transfer faster to process.</td><td>Guarantee that a buyer exists when you want to sell.</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h2 id="examples">Examples of real-world assets</h2>
+<p>The table below lists common asset classes and some publicly documented reference points. A reference point shows how the topic is being tested or regulated. It is not an endorsement of any product.</p>
+<div class="table-wrap" tabindex="0" role="region" aria-label="Examples of real-world assets and reference points">
+<table>
+  <caption>Reference points are drawn from official sources listed at the end of this article.</caption>
+  <thead><tr><th scope="col">Asset class</th><th scope="col">What may be represented</th><th scope="col">Worth knowing</th></tr></thead>
+  <tbody>
+    <tr><th scope="row">Real estate</th><td>Shares in a property or in the vehicle that holds it.</td><td>Dubai Land Department launched a real-estate tokenisation pilot in March 2025.[[5]] In February 2026 it announced a second phase opening controlled resale of about 7.8 million tokens in a secondary market from 20 February, still within a controlled pilot framework.[[6]]</td></tr>
+    <tr><th scope="row">Investment funds</th><td>Units in a collective investment scheme.</td><td>The FCA’s PS26/7, published on 30 April 2026, gives guidance for authorised fund managers who keep the unitholder register on distributed ledger technology, within the existing regulatory framework.[[4]]</td></tr>
+    <tr><th scope="row">Bonds and other securities</th><td>Debt or equity instruments recorded on a ledger.</td><td>The EU has a pilot regime for market infrastructures based on distributed ledger technology (Regulation (EU) 2022/858).[[7]] The UK runs a Digital Securities Sandbox for similar testing.[[8]]</td></tr>
+    <tr><th scope="row">Commodities</th><td>A claim on metal or another commodity held in custody.</td><td>Custody, audit and redemption arrangements are central to what the claim is worth.</td></tr>
+    <tr><th scope="row">Equipment and infrastructure</th><td>Interests in vehicles, machinery or facilities.</td><td>Ownership, maintenance, insurance and valuation all need to be clearly documented.</td></tr>
+  </tbody>
+</table>
+</div>
+<p>A pilot or sandbox is a controlled test. A regulatory initiative in one country does not mean that every RWA or token is approved there, and it says nothing about other countries.</p>
+
+<h2 id="benefits">Potential benefits of tokenisation</h2>
+<p>The benefits below are potential rather than automatic. They depend on how a product is designed, how it is regulated and how widely it is adopted. Official bodies describe them cautiously.</p>
+<ul>
+  <li><strong>Smaller units.</strong> Dividing a large asset into smaller, legally defined interests can lower the amount needed to take part, where the law and the offering terms allow it.</li>
+  <li><strong>Faster, simpler processing.</strong> The BIS suggests tokenisation can bring messaging, reconciliation and settlement together in one process.[[3]] IOSCO notes that it can shorten settlement cycles and improve collateral mobility, but also observes that efficiency gains have been uneven so far because many firms still rely on traditional infrastructure.[[2]]</li>
+  <li><strong>A shared, auditable record.</strong> A common ledger can make ownership records and transaction history easier to inspect for those who are permitted to see them.</li>
+  <li><strong>Automation.</strong> Rules for transfers, eligibility or reporting can be written into software.</li>
+  <li><strong>Potentially wider access.</strong> Eligible participants in different countries may be able to take part, subject to local rules.</li>
+</ul>
+<div class="callout callout--caution" role="note">
+  <strong class="callout__title">Benefit is not return</strong>
+  <p>A potential benefit is not an expected return. None of these advantages tells you whether a particular asset will earn income, hold its value or be easy to sell.</p>
+</div>
+
+<h2 id="risks">Risks and limitations</h2>
+<p>Tokenising an asset does not remove the risks of owning it, and it can add new ones. IOSCO identifies legal uncertainty as a key risk category, alongside operational and cyber risks, and frames market integrity and investor protection as central concerns for regulators.[[2]] The FSB points to vulnerabilities in liquidity and maturity mismatch, leverage, asset price and quality, interconnectedness and operational fragility, which could become more important if tokenisation grows significantly.[[1]]</p>
+
+<h3 id="risk-legal">Legal and regulatory risk</h3>
+<p>The rights attached to a token depend on the legal structure, the offering documents and local law, and these differ between countries. Regulation is also still developing, so rules that apply today may change.</p>
+
+<h3 id="risk-valuation">Asset and valuation risk</h3>
+<p>Property and other real assets can fall in value as well as rise. A valuation is an expert opinion at a particular date, not a guaranteed price. If an independent valuation of an asset changes, the market price of units, or the amount you could redeem, does not automatically move by the same amount.</p>
+
+<h3 id="risk-liquidity">Liquidity risk</h3>
+<p>Tokenised does not mean easy to sell. A secondary market may not exist, may be restricted to approved participants, or may need regulatory approval. Some products also have lock-in periods. Even where a resale venue exists, a buyer may not be available at the price you hope for.</p>
+
+<h3 id="risk-technology">Technology, custody and operational risk</h3>
+<p>Software can contain errors. Private keys can be lost or stolen. Platforms can fail or be attacked. Blockchain transfers generally cannot be reversed once they are confirmed, so a mistake such as sending to the wrong address can be permanent.</p>
+
+<h3 id="risk-issuer">Issuer, counterparty and cost risk</h3>
+<p>You depend on the people who structure, hold and administer the asset. Fees such as subscription, management, transfer and exit charges reduce what you receive, and tax treatment differs from country to country.</p>
+
+<div class="callout callout--caution" role="note">
+  <strong class="callout__title">Capital is at risk</strong>
+  <p>You may lose some or all of the money you put in. Past performance does not guarantee future results, and any figure described as an example or illustration is not a forecast.</p>
+</div>
+
+<h2 id="verify">What should readers verify before evaluating an RWA product?</h2>
+<p>Start with five plain questions: <strong>What asset am I looking at? Who legally owns it? What rights do the units give me? How could I make or lose money? How can I exit?</strong> Then work through the checklist below. If clear written answers are missing for any item, treat that as information in itself.</p>
+<ul class="checklist">
+  <li><b>The asset.</b> Is it clearly identified, with its location, type and condition supported by documents?</li>
+  <li><b>Legal ownership.</b> Who holds legal title, through which entity, and are there loans, liens or other claims against it?</li>
+  <li><b>Your rights.</b> Are income, sale proceeds, voting and redemption rights written in the offering documents, rather than only in marketing material?</li>
+  <li><b>Independent valuation.</b> Who valued the asset, on what date and on what basis?</li>
+  <li><b>Custody and control.</b> Who safeguards the asset and the records or keys? What happens to your position if the platform fails?</li>
+  <li><b>Regulatory status.</b> Is the issuer or platform authorised for this activity where you live? Check the regulator’s own register rather than relying on the provider’s statement.</li>
+  <li><b>Costs and tax.</b> What are all the fees, and how is the product taxed in your country?</li>
+  <li><b>Income and return labels.</b> Are any figures clearly labelled as actual, target or illustrative?</li>
+  <li><b>Exit.</b> What are the lock-in, redemption and transfer terms? Is there a secondary market, and under what conditions?</li>
+  <li><b>Technology review.</b> A smart-contract audit is not the same as legal due diligence, and neither one is a guarantee.</li>
+</ul>
+<div class="callout callout--caution" role="note">
+  <strong class="callout__title">Warning signs</strong>
+  <p>Be cautious about guaranteed returns, pressure to act quickly, rights that are not in writing, an issuer you cannot identify, or any request for your seed phrase or private key. A legitimate provider will never need your private key.</p>
+</div>
+
+<h2 id="faq">Frequently asked questions</h2>
+<div class="faq">
+  <details>
+    <summary>What does RWA stand for?</summary>
+    <div class="faq__a"><p>RWA stands for real-world asset. In digital finance it usually describes a token or ledger record linked to an asset or financial claim that exists outside the blockchain, such as property, fund units, bonds or commodities.</p></div>
+  </details>
+  <details>
+    <summary>Is owning an RWA token the same as owning the asset?</summary>
+    <div class="faq__a"><p>Not necessarily. What a token gives you depends on the legal structure, the subscription agreement, the offering documents and local law. It might represent a share in a company, a unit in a fund, a contractual claim or something else. Read the documents to find out which.</p></div>
+  </details>
+  <details>
+    <summary>Are RWA products regulated?</summary>
+    <div class="faq__a"><p>It depends on the product and the country. Many tokenised products are treated under existing rules for securities, funds, property and anti-money-laundering, and regulators have used guidance and sandboxes to test new approaches.[[2,4]] Do not assume that a product is regulated because it uses the word “regulated” in its marketing. Check the regulator’s own register.</p></div>
+  </details>
+  <details>
+    <summary>Can I lose money with an RWA?</summary>
+    <div class="faq__a"><p>Yes. The underlying asset can lose value, income can be lower than expected or stop, and you may not be able to sell when you want to. Technology and custody problems can add further risks. You may lose some or all of the money you put in.</p></div>
+  </details>
+  <details>
+    <summary>Can I sell an RWA whenever I want?</summary>
+    <div class="faq__a"><p>No, this is not guaranteed. A secondary market may be unavailable, limited to approved participants or subject to regulatory approval, and some products have lock-in periods. Dubai’s resale phase, for example, runs within a controlled pilot framework.[[6]]</p></div>
+  </details>
+  <details>
+    <summary>Is RWA the same as cryptocurrency?</summary>
+    <div class="faq__a"><p>No. A crypto-native token derives its value mainly from its network and market. An RWA is linked to something outside the blockchain, and its rights depend on law and contracts. They may share some technology, so both can carry technology and custody risks.</p></div>
+  </details>
+  <details>
+    <summary>Is this article an offer from AKCELPE?</summary>
+    <div class="faq__a"><p>No. This article is educational. For AKCELPE’s own pages on proposed real-asset structures and their risks, see <a href="/rwa-global.html">RWA Global</a> and the <a href="/risk.html">risk disclosure</a>. Those pages are provided for information only.</p></div>
+  </details>
+</div>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>RWA tokenisation is best understood as a way of changing how rights over real assets are recorded and moved. It does not change what those assets are, and it does not change how risky they may be. The potential benefits, such as smaller units, more efficient processing and shared records, are the subject of serious institutional work, but adoption is still early and regulation is still evolving.</p>
+<p>The most useful habit is to ask plain questions and expect plain, written answers: what the asset is, who legally owns it, what rights the units carry, how money could be made or lost, and how you could exit. For official reference points by country, see the <a href="/research-centre.html">AKCELPE Research Centre</a>. To see how AKCELPE describes its own proposed framework, read <a href="/rwa-global.html">RWA Global</a> together with the <a href="/risk.html">risk disclosure</a>.</p>
+
+<h2 id="sources">Further reading and official sources</h2>
+<p>These are the primary sources used for this article. Links to third-party organisations do not imply that those organisations endorse AKCELPE.</p>
+<ol class="sources">
+  <li id="src-1"><a href="https://www.fsb.org/2024/10/the-financial-stability-implications-of-tokenisation/" rel="noopener" target="_blank">The Financial Stability Implications of Tokenisation</a><span class="src-meta">Financial Stability Board, 22 October 2024</span></li>
+  <li id="src-2"><a href="https://www.iosco.org/news/pdf/IOSCONEWS778.pdf" rel="noopener" target="_blank">Final Report on the Tokenization of Financial Assets (press release)</a><span class="src-meta">International Organization of Securities Commissions, 11 November 2025</span></li>
+  <li id="src-3"><a href="https://www.bis.org/press/p250624.htm" rel="noopener" target="_blank">Next-generation monetary and financial system takes shape, based on a tokenised unified ledger</a><span class="src-meta">Bank for International Settlements, 24 June 2025</span></li>
+  <li id="src-4"><a href="https://www.fca.org.uk/publications/policy-statements/ps26-7-progressing-fund-tokenisation" rel="noopener" target="_blank">PS26/7: Progressing fund tokenisation</a><span class="src-meta">Financial Conduct Authority, 30 April 2026</span></li>
+  <li id="src-5"><a href="https://dubailand.gov.ae/en/news-media/dubai-land-department-launches-pilot-phase-of-the-real-estate-tokenisation-project" rel="noopener" target="_blank">Dubai Land Department launches pilot phase of the Real Estate Tokenisation Project</a><span class="src-meta">Dubai Land Department, 19 March 2025</span></li>
+  <li id="src-6"><a href="https://dubailand.gov.ae/en/news-media/dubai-land-department-launches-phase-ii-of-the-real-estate-tokenisation-project-enabling-resale-in-the-secondary-market-from-20-february/" rel="noopener" target="_blank">Dubai Land Department launches Phase II of the Real Estate Tokenisation Project</a><span class="src-meta">Dubai Land Department, announced 9 February 2026</span></li>
+  <li id="src-7"><a href="https://eur-lex.europa.eu/eli/reg/2022/858/oj" rel="noopener" target="_blank">Regulation (EU) 2022/858 on a pilot regime for market infrastructures based on distributed ledger technology</a><span class="src-meta">European Parliament and Council of the EU, 30 May 2022</span></li>
+  <li id="src-8"><a href="https://www.fca.org.uk/firms/digital-securities-sandbox" rel="noopener" target="_blank">Digital Securities Sandbox</a><span class="src-meta">Financial Conduct Authority (see also the Bank of England)</span></li>
+  <li id="src-9"><a href="https://www.gov.uk/government/organisations/hm-land-registry" rel="noopener" target="_blank">HM Land Registry</a><span class="src-meta">UK Government</span></li>
+</ol>
+<p>For more official and institutional references by country, visit the <a href="/research-centre.html">AKCELPE Research Centre</a>.</p>

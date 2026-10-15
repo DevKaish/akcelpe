@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-labelledby="t d">
+  <title id="t">From real asset to digital record</title>
+  <desc id="d">Three stacked layers: a real asset, the legal structure around it, and a digital record that represents it.</desc>
+  <rect width="1600" height="900" fill="#F3F5F6"/>
+  <!-- restrained angular brand motif -->
+  <polygon points="-40,900 330,110 470,110 100,900" fill="#D82020"/>
+  <polygon points="250,900 560,240 640,240 330,900" fill="#17365D" opacity="0.09"/>
+  <rect x="0" y="852" width="1600" height="48" fill="#17365D" opacity="0.04"/>
+
+  <g font-family="Helvetica, Arial, sans-serif">
+    <text x="760" y="168" font-size="22" font-weight="700" letter-spacing="4" fill="#D82020">REAL-WORLD ASSETS</text>
+
+    <!-- Layer 1 -->
+    <rect x="760" y="204" width="700" height="150" fill="#FFFFFF" stroke="#D5DADD" stroke-width="2"/>
+    <rect x="760" y="204" width="10" height="150" fill="#17365D"/>
+    <text x="808" y="262" font-size="26" font-weight="700" letter-spacing="2" fill="#17365D">01  REAL ASSET</text>
+    <text x="808" y="306" font-size="26" fill="#444B52">Property, fund units, bonds,</text>
+    <text x="808" y="340" font-size="26" fill="#444B52">commodities, equipment</text>
+
+    <!-- connector -->
+    <line x1="1110" y1="354" x2="1110" y2="402" stroke="#17365D" stroke-width="3"/>
+    <polygon points="1098,392 1122,392 1110,410" fill="#17365D"/>
+
+    <!-- Layer 2 : emphasised -->
+    <rect x="760" y="410" width="700" height="150" fill="#FFFFFF" stroke="#D82020" stroke-width="4"/>
+    <rect x="760" y="410" width="10" height="150" fill="#D82020"/>
+    <text x="808" y="468" font-size="26" font-weight="700" letter-spacing="2" fill="#D82020">02  LEGAL STRUCTURE</text>
+    <text x="808" y="512" font-size="26" fill="#444B52">Defines the rights, the holder,</text>
+    <text x="808" y="546" font-size="26" fill="#444B52">the rules and the remedies</text>
+
+    <!-- connector -->
+    <line x1="1110" y1="560" x2="1110" y2="608" stroke="#17365D" stroke-width="3"/>
+    <polygon points="1098,598 1122,598 1110,616" fill="#17365D"/>
+
+    <!-- Layer 3 -->
+    <rect x="760" y="616" width="700" height="150" fill="#FFFFFF" stroke="#D5DADD" stroke-width="2"/>
+    <rect x="760" y="616" width="10" height="150" fill="#30B040"/>
+    <text x="808" y="674" font-size="26" font-weight="700" letter-spacing="2" fill="#17365D">03  DIGITAL RECORD</text>
+    <text x="808" y="718" font-size="26" fill="#444B52">A token or ledger entry that</text>
+    <text x="808" y="752" font-size="26" fill="#444B52">represents or administers it</text>
+  </g>
+</svg>
